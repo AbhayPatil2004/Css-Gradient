@@ -21,6 +21,7 @@ const handelBtn1 = () => {
     document.body.style.backgroundImage = 
     `linear-gradient(to right , ${rgb1}, #555)`;
     copyDiv.innerHTML = `background-image: linear-gradient(to right , ${rgb1} , ${rgb2})`
+    btn1.innerText = rgb1 ;
 }
 const handelBtn2 = () => {
     rgb2 = gteHex();
@@ -28,6 +29,7 @@ const handelBtn2 = () => {
     document.body.style.backgroundImage = 
     `linear-gradient(to right , ${rgb2}, #555)`;
     copyDiv.innerHTML = `background-image: linear-gradient(to right , ${rgb1} , ${rgb2})`
+    btn2.innerText = rgb2 ;
 }
 
 btn1.addEventListener('click',handelBtn1);
