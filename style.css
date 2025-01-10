@@ -5,9 +5,44 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(ot right , rgb( 92 , 145, 229) , rgb(152, 63, 198));
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+section{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#btns{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#myButton1 {
+    background-color: rgb(72, 225, 225);
+    padding: 10px 20px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+    
+}
+#myButton2{
+    background-color: rgb(228, 75, 255);
+    padding: 10px 20px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px black;
+
+}
+.copyCode{
+    text-align: center;
+    font-size: 1.2rem;
 }
