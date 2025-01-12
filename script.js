@@ -34,3 +34,7 @@ const handelBtn2 = () => {
 
 btn1.addEventListener('click',handelBtn1);
 btn2.addEventListener('click',handelBtn2);
+copyDiv.addEventListener('click',() =>{
+    alert("Text Copied");
+    navigator.clipboard.writeText(copyDiv.innerText);
+});
